@@ -201,27 +201,27 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="🧲Add Koro Sensei to your group!",
+                            text="🧲Add me in your group!",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="⚙️ Support Group",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             text="⚙️Support Group",
+                             url=f"https://t.me/Gabi_Help_Support"),
                          InlineKeyboardButton(
-                             text="🔔Updates Channel",
-                             url="https://t.me/KoroSenseiUpdate")
+                             text="🔔Log+Updates Channel",
+                             url="https://t.me/Gabi_Support_Log")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="📖 Getting Started Guide",
-                             url="https://t.me/koroSenseiUpdate/5")
+                             text="📖Ast Group",
+                             url="https://t.me/AnimeSubbingTeam07")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="💾 Source Code.",
-                             url="https://github.com/Koro-Sensei-0/Haruki")
+                             text="💾Source Code.",
+                             url="https://github.com/LEGEND-BEAST/Gabi-Robot")
                      ]]))
     else:
         update.effective_message.reply_text(
