@@ -514,7 +514,7 @@ Examples:
  • `/info`*:* get information about a user. 
  
 *What is that health thingy?*
- Come and see [HP System explained](https://t.me/koroSenseiUpdate/8)
+ Come and see [HP System explained](https://t.me/Gabi_Support_Log/9)
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio)
