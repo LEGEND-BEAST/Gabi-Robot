@@ -177,7 +177,7 @@ def new_member(update: Update, context: CallbackContext):
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    "Oh, Genos? Let's get this moving.",
+                    "Let's Falco, We get our revenge and fight!",
                     reply_to_message_id=reply)
                 welcome_log = (f"{html.escape(chat.title)}\n"
                                f"#USER_JOINED\n"
@@ -187,7 +187,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "Whoa! A member of the koro sensei support just joined!",
+                    "Whoa! A powerful friend of Gabi just joined, Stay Alert!",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -195,7 +195,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Sudos
             elif new_mem.id in DRAGONS:
                 update.effective_message.reply_text(
-                    "Huh! A Dragon disaster just joined! Stay Alert!",
+                    "Huh! A Giant Sized(40m+) Titan just joined! Stay Alert!",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -203,7 +203,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Support
             elif new_mem.id in DEMONS:
                 update.effective_message.reply_text(
-                    "Huh! Someone with a Demon disaster level just joined!",
+                    "Huh! Someone Mid-Sized(20m+) Titan just joined!",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -211,14 +211,14 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Whitelisted
             elif new_mem.id in TIGERS:
                 update.effective_message.reply_text(
-                    "Oof! A Tiger disaster just joined!",
+                    "Oof! A Small-Sized(10m+) Titan just joined!",
                     reply_to_message_id=reply)
                 continue
 
             # Welcome Tigers
             elif new_mem.id in WOLVES:
                 update.effective_message.reply_text(
-                    "Oof! A Wolf disaster just joined!",
+                    "Oof! A Newbie Warrior just joined!",
                     reply_to_message_id=reply)
                 continue
 
